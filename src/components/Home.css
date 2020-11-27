@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&family=Goldman:wght@700&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+  .flexitem{
+      display:flex;
+      flex-direction: row;
+      text-align: center;
+      margin: auto;
+  }
+  .flexitem div{
+      flex:50%
+  }
+  .data{
+    color:#f1c40f;
+    font-size:60px;
+    font-weight:900;
+    font-family: "ui-rounded";
+  }
+  .web{
+    font-family: "ui-rounded";
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  .winimage{
+
+      /* display:flex;
+      align-items: center;
+      justify-content: center; */
+      margin: auto;
+     width: 60%;
+     
+
+
+  }
+  .image{
+    height:80%;
+  
+  }
+  .imagedir{
+    width:80%;
+    margin: 40px;
+    padding-left: 30px;
+    border:5px ;
+    /* border-radius: 25px 25px 25px 25px; */
+  }
+  .regbtn{
+    color:#ccccff;
+    /* background-color: rgb(228, 74, 47); */
+    background: transparent;
+    border-radius: 25px;
+    width:50%;
+    font-size: 30px;
+    
+    border:5px inset #f1c40f;
+    cursor: pointer;
+  }
+  .regbtn:hover{
+ 
+    width:50%;
+    font-weight: bold;
+    color:#000;
+    background-color: #f1c40f;
+    border-radius: 25px;
+
+    font-size: 30px;
+    border:5px inset #576574;
+    cursor: pointer;
+  }
+.section{
+  /* margin-top: -500px; */
+  padding: 1px 50px;
+}
+  .section .p{
+    font-size: 20px;
+  }
+
+.info{
+  padding: 30px 50px 30px 30px;
+  text-align: center;
+  border-left: 5px solid red;
+  
+}
+ .info h4 , h3 {
+  font-size: 18px;
+  line-height: 1.5rem;
+  text-align: center;
+  
+}
+
+.ogb{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+}
+.cliens {
+  padding: 25px 0;
+  text-align: center;
+ 
+}
+
+.cliens img {
+  max-width: 50%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.cliens img:hover {
+  -webkit-filter: none;
+  filter: none;
+  transform: scale(1.6);
+}
+
+@media (max-width: 768px) {
+  .cliens img {
+    max-width: 40%;
+  }
+  /* .image{
+    display: none;
+  } */
+  .section{
+    /* margin-top: 10px; */
+    padding: 1px 50px;
+  }
+}
+  @media (max-width: 900px) {
+   
+    .image{
+      height:45%;
+margin-top: 50px;
+    }
+    .web{
+      font-family: "ui-rounded";
+      font-size: 38px;
+      font-weight: 600;
+    }
+    .info h4 , h3 {
+      font-size: 15px;
+      line-height: 1.5rem;
+      text-align: center;
+      
+    }
+   } 
+
+   #logoheading{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color:  #f1c40f;
+   }

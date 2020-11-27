@@ -1,0 +1,15 @@
+.imagefaq{
+    height:30%;
+    display: block;
+    margin: auto;
+}
+.row-title-text{
+  padding-left:15px;
+  font-size: 20px;
+}
+@media (max-width: 900px) {
+   
+    .imagefaq{
+      height:25%;
+    }
+   } 

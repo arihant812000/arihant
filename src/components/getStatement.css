@@ -1,0 +1,14 @@
+.p{
+    font-size: 15px;
+}
+@media (max-width: 1000px){
+    .p{
+        
+        font-size: 10px;
+       
+    } 
+  
+    
+   
+    
+ }

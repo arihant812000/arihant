@@ -1,0 +1,16 @@
+
+.foot{
+    background-color: rgba(230, 178, 10, 0.8);
+    color: #fff;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+      
+}
+
+#it{
+    font-size: 10px;
+}
+
+.footer-copyright{
+    border: 0.5 px solid black;
+}
